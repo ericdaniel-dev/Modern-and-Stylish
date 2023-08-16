@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Blue T-shirt",
+    "image": "./images/House.webp",
+    "category": "shirt",
+    "price": 100
+  }
+]

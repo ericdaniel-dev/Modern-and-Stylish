@@ -1,22 +1,17 @@
 import './App.css';
 import Header from './component/organisms/Header';
 import Footer from './component/organisms/Footer';
-import Introduction from './component/organisms/Introduction';
-import Products from './component/organisms/Products';
 
-function App() {
+function App({ pages }) {
   return (
     <>
-      <div id="containerBox" className="flex flex-col">
+      <div id="containerBox" className="flex flex-col items-center">
         <Header></Header>
-        <main className="flex flex-col gap-3">
-          <Introduction/>
-          <Products/>
-        </main>
+        {pages}
         <Footer></Footer>
       </div>  
     </>
   )
 }
 
-export default App
+export default App;

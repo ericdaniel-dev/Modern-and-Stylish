@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import ProductCards from './Product-Cards';
 import DataProduct from '../../data/data-product.json';
+import ModalBox from './Modal-Box';
 
 export default function Products(){
 	const [isLoading, setIsLoading] = useState(true);
@@ -27,7 +28,7 @@ export default function Products(){
 							/>
 						))}
 				</div>
-			</div>	
+			</div>
 		</section>
 		);
 }

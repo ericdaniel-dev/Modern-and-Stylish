@@ -2,49 +2,49 @@
   {
     "id": 1,
     "title": "Blue T-shirt",
-    "image": "./images/House.webp",
+    "image": "./images/Blue T-shirt.jpg",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Black T-shirt",
+    "image": "./images/Black Shirt.jpg",
+    "category": "shirt",
+    "price": 100
+  },
+  {
+    "id": 2,
+    "title": "Trendy T-shirt",
+    "image": "./images/Trendy T-shirt.jpg",
     "category": "shirt",
     "price": 100
   },
   {
     "id": 2,
     "title": "Blue T-shirt",
-    "image": "./images/House.webp",
+    "image": "./images/Blue T-shirt.jpg",
     "category": "shirt",
     "price": 100
   },
   {
     "id": 2,
     "title": "Blue T-shirt",
-    "image": "./images/House.webp",
+    "image": "./images/Blue T-shirt.jpg",
     "category": "shirt",
     "price": 100
   },
   {
     "id": 2,
     "title": "Blue T-shirt",
-    "image": "./images/House.webp",
+    "image": "./images/Blue T-shirt.jpg",
     "category": "shirt",
     "price": 100
   },
   {
     "id": 2,
     "title": "Blue T-shirt",
-    "image": "./images/House.webp",
-    "category": "shirt",
-    "price": 100
-  },
-  {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/House.webp",
-    "category": "shirt",
-    "price": 100
-  },
-  {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/House.webp",
+    "image": "./images/Blue T-shirt.jpg",
     "category": "shirt",
     "price": 100
   }

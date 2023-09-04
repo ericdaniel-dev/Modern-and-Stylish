@@ -7,7 +7,7 @@ function App({ pages }) {
     <>
       <div id="containerBox" className="flex flex-col items-center">
         <Header></Header>
-        <div className="mt-16"> </div>
+        <div className="mt-16"></div>
         {pages}
         <Footer></Footer>
       </div>  

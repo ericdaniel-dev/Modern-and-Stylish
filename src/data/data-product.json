@@ -1,51 +1,86 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Blue T-shirt",
     "image": "./images/Blue T-shirt.jpg",
-    "category": "shirt",
+    "category": "clothes",
     "price": 100
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Black T-shirt",
     "image": "./images/Black Shirt.jpg",
-    "category": "shirt",
+    "category": "clothes",
     "price": 100
   },
   {
     "id": 2,
     "title": "Trendy T-shirt",
     "image": "./images/Trendy T-shirt.jpg",
-    "category": "shirt",
+    "category": "clothes",
     "price": 100
   },
   {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/Blue T-shirt.jpg",
-    "category": "shirt",
+    "id": 3,
+    "title": "Grey Shorts",
+    "image": "./images/Grey Shorts.jpg",
+    "category": "pants",
     "price": 100
   },
   {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/Blue T-shirt.jpg",
-    "category": "shirt",
+    "id": 4,
+    "title": "Brown Pants",
+    "image": "./images/Brown Pants.jpg",
+    "category": "pants",
     "price": 100
   },
   {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/Blue T-shirt.jpg",
-    "category": "shirt",
+    "id": 5,
+    "title": "Blue Jeans",
+    "image": "./images/Blue Jeans.jpg",
+    "category": "pants",
+    "price": 100
+  },
+   {
+    "id": 6,
+    "title": "Black Watch",
+    "image": "./images/Black Watch.jpg",
+    "category": "watch",
     "price": 100
   },
   {
-    "id": 2,
-    "title": "Blue T-shirt",
-    "image": "./images/Blue T-shirt.jpg",
-    "category": "shirt",
+    "id": 7,
+    "title": "Brown Watch",
+    "image": "./images/Brown Watch.jpg",
+    "category": "watch",
+    "price": 100
+  },
+  {
+    "id": 8,
+    "title": "Elegance Black Watch",
+    "image": "./images/Elegance Black Watch.jpg",
+    "category": "watch",
+    "price": 100
+  },
+  {
+    "id": 9,
+    "title": "Fedora Hat",
+    "image": "./images/Fedora Hat.jpg",
+    "category": "hat",
+    "price": 100
+  },
+  {
+    "id": 10,
+    "title": "Trucker Hat",
+    "image": "./images/Trucker Hat.jpg",
+    "category": "hat",
+    "price": 100
+  },
+  {
+    "id": 11,
+    "title": "Baseball Cap",
+    "image": "./images/Baseball Cap.jpg",
+    "category": "watch",
     "price": 100
   }
 ]

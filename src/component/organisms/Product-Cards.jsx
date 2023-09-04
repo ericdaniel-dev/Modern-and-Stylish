@@ -1,7 +1,7 @@
 import SearchIcon from '../../assets/search icon.svg';
 import AddToChartIcon from '../../assets/add to chart.svg';
 
-const ProductCards = ({ id, title, image, category, price, loading }) => {
+const ProductCards = ({ id, title, image, category, price, loading, modal }) => {
   return (
     <div id="product-card" className="flex flex-col w-[310px] border-2 border-gray-300 hover:border-gray-400 rounded-xl p-2">
       {loading ? (
@@ -24,7 +24,7 @@ const ProductCards = ({ id, title, image, category, price, loading }) => {
             <div className="w-full h-auto flex flex-row items-center justify-between">
               <span className="text-xl">${price}</span>
               <div className="flex gap-2">
-                <button className="hover:bg-gray-50 rounded-full w-[26px] h-[26px]">
+                <button onClick={modal} className="hover:bg-gray-50 rounded-full w-[26px] h-[26px]">
                   <img src={SearchIcon} alt="preview product" width="23px" height="23px"/>
                 </button>
                 <button className="hover:bg-gray-50 rounded-full w-[26px] h-[26px]">

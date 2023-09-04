@@ -2,84 +2,84 @@
   {
     "id": 0,
     "title": "Blue T-shirt",
-    "image": "./images/Blue T-shirt.jpg",
+    "image": "./images/Blue T-shirt.webp",
     "category": "clothes",
     "price": 100
   },
   {
     "id": 1,
     "title": "Black T-shirt",
-    "image": "./images/Black Shirt.jpg",
+    "image": "./images/Black Shirt.webp",
     "category": "clothes",
     "price": 100
   },
   {
     "id": 2,
     "title": "Trendy T-shirt",
-    "image": "./images/Trendy T-shirt.jpg",
+    "image": "./images/Trendy T-shirt.webp",
     "category": "clothes",
     "price": 100
   },
   {
     "id": 3,
     "title": "Grey Shorts",
-    "image": "./images/Grey Shorts.jpg",
+    "image": "./images/Grey Shorts.webp",
     "category": "pants",
     "price": 100
   },
   {
     "id": 4,
     "title": "Brown Pants",
-    "image": "./images/Brown Pants.jpg",
+    "image": "./images/Brown Pants.webp",
     "category": "pants",
     "price": 100
   },
   {
     "id": 5,
     "title": "Blue Jeans",
-    "image": "./images/Blue Jeans.jpg",
+    "image": "./images/Blue Jeans.webp",
     "category": "pants",
     "price": 100
   },
    {
     "id": 6,
     "title": "Black Watch",
-    "image": "./images/Black Watch.jpg",
+    "image": "./images/Black Watch.webp",
     "category": "watch",
     "price": 100
   },
   {
     "id": 7,
     "title": "Brown Watch",
-    "image": "./images/Brown Watch.jpg",
+    "image": "./images/Brown Watch.webp",
     "category": "watch",
     "price": 100
   },
   {
     "id": 8,
     "title": "Elegance Black Watch",
-    "image": "./images/Elegance Black Watch.jpg",
+    "image": "./images/Elegance Black Watch.webp",
     "category": "watch",
     "price": 100
   },
   {
     "id": 9,
     "title": "Fedora Hat",
-    "image": "./images/Fedora Hat.jpg",
+    "image": "./images/Fedora Hat.webp",
     "category": "hat",
     "price": 100
   },
   {
     "id": 10,
     "title": "Trucker Hat",
-    "image": "./images/Trucker Hat.jpg",
+    "image": "./images/Trucker Hat.webp",
     "category": "hat",
     "price": 100
   },
   {
     "id": 11,
     "title": "Baseball Cap",
-    "image": "./images/Baseball Cap.jpg",
+    "image": "./images/Baseball Cap.webp",
     "category": "watch",
     "price": 100
   }

@@ -2,6 +2,30 @@ import { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import Buttons from '../atoms/Buttons';
 import CartIcon from '../../assets/cart.svg';
+
+const handleLogout = () => {
+	localStorage.removeItem('email');
+	window.location.href = '/';
+}
+const AuthDisplay = () => {
+	if(localStorage.getItem('email')===null){
+		return(
+			<ul className="flex flex-row gap-5">
+				<li className="text-blue-500"><Link to='/login'>Login</Link></li>
+				<li className="text-blue-500"><Link to='/register'>Register</Link></li>
+			</ul>
+		);
+	}
+	else{
+		return(
+			<ul className="flex flex-row gap-5">
+				<li className="text-blue-500">{localStorage.getItem('email')}</li>
+				<li className="text-blue-500"><button onClick={handleLogout}>Logout</button></li>
+			</ul>
+			)
+	}
+}
+
 export default function Header(){
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const hamburgerMenu = () => {
@@ -19,7 +43,7 @@ export default function Header(){
 	}
 	return(
 		<header className="fixed w-full h-auto border-b-2 border-gray-300 bg-white bg-opacity-95">
-			<div id="headers" className="flex p-3 items-center justify-around">
+			<div id="headers" className="flex p-3 items-center justify-between">
 				<button onClick={() => hamburgerMenu()} className="inline-block md:hidden border-2 border-gray-200 p-3">☰</button>
 				<Link to="/"><h1 className="text-lg md:text-2xl">Modern & Stylish</h1></Link>
 				<nav id="navmenu" className="hidden md:inline-block p-5 md:p-0">
@@ -29,14 +53,21 @@ export default function Header(){
 						<li><a href="/#productBox">Product</a></li>
 						<li><Link to="#">About Us</Link></li>
 						<li><Link to="#">Contact Us</Link></li>
-						<li className="inline md:hidden text-blue-500"><Link to="/login">Login</Link></li>
-						<li className="inline md:hidden text-blue-500"><Link to="/register">Register</Link></li>
+						<hr/>
+						<div className="inline-block md:hidden">
+							<AuthDisplay/>
+						</div>
 					</ul>
 				</nav>
-				<Link to="/cart" className="p-2 border-2 flex items-center gap-5">
-					<Buttons text={CartIcon}>test</Buttons>
-					<span> 0 </span>
-				</Link>
+				<div className="flex flex-row items-center gap-3">
+					<Link to="/cart" className="p-2 border-2 flex items-center gap-5">
+						<Buttons text={CartIcon}>test</Buttons>
+						<span> 0 </span>
+					</Link>
+					<div className="hidden md:inline-block">
+						<AuthDisplay/>
+					</div>
+				</div>
 			</div>
 		</header>
 		);

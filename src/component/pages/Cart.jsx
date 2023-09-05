@@ -1,6 +1,6 @@
 export default function CartPages(){
 	return(
-		<main className="flex flex-col gap-3">
+		<main className="mt-10 flex flex-col gap-3">
 			<section>
 				<h2>My Cart List</h2>
 				<div id="mycart">
